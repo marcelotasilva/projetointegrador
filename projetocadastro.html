@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - JOB House</title>
+    <link rel="stylesheet" href="./css/estilo_cadastro.css">    
+</head>
+<body>
+    <header>
+        <div class="topnav">
+        <a class="button" href="index.html">Pagina Inicial</a>
+        <a class="button" href="projetosobre.html">Sobre</a>
+        <a class="button" href="projetocadastro.html">Cadastro</a>
+        <a class="button" href="./projeto_contato.html">Contato</a>
+      </div>
+  </header>   
+  <hr> 
+  <main>
+    <div>
+        <div class="box">
+            <form action="">
+                <fieldset>
+                    <legend><b>CADASTRO</b></legend>
+                    <br>
+                    <div class="inputbox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label for="nome" class="labelInput">Nome Completo</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label for="email" class="labelInput">Email</label>
+                    </div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label for="telefone" class="labelInput">Confirme Email</label>
+                    </div>
+                    <p>sexo:</p>
+                    <input type="radio" id="feminino" name="genero" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                    <br>
+                    <input type="radio" id="masculino" name="genero" value="feminino" required>
+                    <label for="masculino">Masculino</label>
+                    <br>
+                    <!-- <input type="radio" id="outro" name="genero" value="feminino" required>
+                    <label for="outro">Outro</label> -->
+                    <br>
+                    <label for="data_nascimento"><b>Data de Nascimento:</b></label>
+                    <input type="date" name="data_nascimento" id="data_nascimento" required>
+                    <br><br><br>
+                        <div class="inputbox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelInput">Telefone</label>
+                        </div>
+                        <br><br>
+                         <div class="inputbox">
+                            <input type="text" name="estado" id="estado" class="inputUser" required>
+                            <label for="estado" class="labelInput">Senha</label>
+                        </div> 
+                        <br><br>
+                        <div class="inputbox">
+                            <input type="text" name="endereco" id="endereco" class="inputUser" required>
+                            <label for="endereco" class="labelInput">Confirme Senha</label>
+                        </div>
+                        <br><br>
+                        <button class="button">Criar</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    
+  </main>
+  <hr>
+  <footer class="main_footer container">
+    <div class="main_footer_copy">
+        <p class="m-b-footer">Projeto Integrador - 2023</p> 
+        <p class="by"><i class="icon icon-heart-3"></i>Desenvolvido por: <a href="#" title="Marcelo">Marcelo Augusto Tavares Da Silva.</a></p>
+    </div>
+</footer>  
+
+</body>
+</html>
